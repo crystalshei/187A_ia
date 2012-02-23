@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Information Architecture</title>
+    <meta name="description" content="Information Architecture">
+    <meta name="author" content="Lara Cheng, Andrew Oh, Crystal Shei">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+	<body>
+			<div class="container-fluid">	
+					<div class="row-fluid">
+						<div class="span12" id="header"> <div id="top_title"> Information Architecture</div>
+					</div>
+					<!--this is the banner-->
+					
+				
+				<div>
+					<ul class="breadcrumb">
+						<li>
+							<a class="crumb" href="index.html"> Home </a><i class="icon-chevron-right"></i>
+						</li>
+						
+						<li>
+							<a class="crumb" href="userp.html"> User Personas </a><i class="icon-chevron-right"></i>
+						</li>
+						
+						</li>
+							<a class="crumb" href="user_2.html"> User Personas 2 </a><i class="icon-chevron-right"></i>
+						<li>
+						<li>
+							<a class="active" href="user_3.html"> User Personas 3 </a>
+						</li>
+					</ul>
+				</div>
+				<!--breadcrumb-->
+				
+				
+				
+				
+				<div class="row-fluid">
+					<div class="span3" >
+						<ul> <br />
+							<li> <a class="nav" href="index.html"><i class="icon-home icon-white"></i> Home </a></li>
+							<li> <a class="nav" href="userp.html"><i class="icon-user icon-white"></i> User Personas</a></li>
+							<li> <a class="nav" href="sites.html"><i class="icon-file icon-white"></i> Site Analysis</a></li>
+							<li> <a class="nav" href="wireframe.html"><i class="icon-repeat icon-white"></i>  Redesign</a></li>
+							<li> <a class="nav" href="decisions.html"><i class="icon-ok icon-white"></i> Design Decisions</a></li>
+						</ul>
+						<!--This is the left navigation bar-->
+					</div>
+					
+					<div class="span9">
+					
+						<div class="row-fluid">
+							<ul id="user"> <br />
+								<li class="toggle"><a href="user_2.html">prev</a></li>
+								<li><a href="userp.html"> 1 </a></li>
+								<li><a href="user_2.html"> 2 </a></li>
+								<li><a href="user_3.html"> 3 </a></li>
+								<li><a href="user_4.html"> 4 </a></li>
+								<li><a href="user_5.html"> 5 </a></li>
+								<li class="toggle"><a href="user_4.html">next</a></li>
+								
+							</ul>
+						</div><br /> 
+					
+					<h1> User Persona 3</h1>
+					<img class="thumb" src="images/jane.jpg"/>
+					<h3> Jane Puentes: Current Student</h3>
+						<p> Jane is a current student at the University of Louisiana at Lafayette. She is a third-year Psychology student, and is a fairly average student. While she is not directly involved with any campus organizations, Jane likes to attend various events at her school, as well as play sports in her free time.</p>	
+						
+					<h3>SCENARIOs</h3>
+						<table class="table">
+							<tr>
+							<th>Information: </th>
+							<th>Scenario #1</th>
+							</tr>
+							<tr>
+							<td>Context</td>
+							<td>Jane wants to sign up for Intramurals with her roommates.</td>
+							</tr>
+							<tr>
+							<td>Question</td>
+							<td>What intramurals are being offered?</td>
+							</tr>
+							<tr>
+							<td>User Needs</td>
+							<td>Jane needs to look through the list intramurals.</td>
+							</tr>
+							<tr>
+							<td>User Steps</td>
+							<td>1. Enter URL "http://www.louisiana.edu/"
+								2. Click on "Current Students" tab in the vertical menu near the middle of the page
+								3. Scroll down to and click on "Recreational Sports" header/link
+								4. Click on "Intramurals" tab on vertical menu on the left side of the page</td>
+							</tr>
+
+							<th>Information: </th>
+							<th>Scenario #2</th>
+							</tr>
+							<tr>
+							<td>Context</td>
+							<td>Jane has decided not to study for the rest of the day, and wants to know if there are any University Program Council events she can attend.</td>
+							</tr>
+							<tr>
+							<td>Question</td>
+							<td>Does the University Program Council have anything going on tonight?</td>
+							</tr>
+							<tr>
+							<td>User Needs</td>
+							<td>Jane needs to view the University Program Council's page </td>
+							</tr>
+							<tr>
+							<td>User Steps</td>
+							<td>1. Enter URL "http://www.louisiana.edu/"
+								2. Click on "Current Students" tab in the vertical menu near the middle of the page
+								3. Scroll down to "Campus Organizations" section and click on "University Program Council"</td>
+
+							<tr>
+							<th>Information: </th>
+							<th>Scenario #3</th>
+							</tr>
+							<tr>
+							<td>Context</td>
+							<td>Jane wants to plan her class schedule for the upcoming semester.</td>
+							</tr>
+							<tr>
+							<td>Question</td>
+							<td>What will my class schedule look like next semester?</td>
+							</tr>
+							<tr>
+							<td>User Needs</td>
+							<td>Jane needs to find the class schedule for the upcoming semester, and also check what days and times the classes she plans on taking are being offered.</td>
+							</tr>
+							<tr>
+							<td>User Steps</td>
+							<td>1. Enter URL "http://www.louisiana.edu/"
+								2. Click on "Current Students" tab in the vertical menu near the middle of the page
+								3. Click on "Schedule of Classes" link (the first link in the list)
+								4. Scroll down to the year she is looking for
+								5. Click on the link within the bullet point labeled "The link to the List of Courses:"
+								6. Enter "User Name" and "Password." 
+								7. Note: this step is a general assumption of what Jane needs to do, since we cannot access the class schedule (no User Name and Password). Search for her classes depending on what she knows she needs to take</td>
+							</tr>
+						</table>
+					</div> <br /> <br />
+				<!--main content-->
+				
+			
+			</div>
+				<p class="footer"> Content by Crystal Shei, Lara Cheng, and Andrew Oh | Webpage by Crystal Shei and Andrew Oh</p>			
+		</div>
+	
+  </body>
+</html>
