@@ -1,0 +1,173 @@
+html{
+	margin:0;
+	padding:0;
+		}
+
+body{
+	margin:50px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+		}
+			
+
+			
+.active{
+	font-size:13px;
+	color:#800000;
+
+
+		}
+/*active is for the active part of breadcrumb*/
+
+.active:hover{
+	color:#800000;
+	} 
+		
+.crumb{
+	font-size:10px;
+	color:#800000;
+	opacity:0.7;
+	}
+	
+#mainhome {
+	margin-top:0px;
+}
+
+.breadcrumb {
+	padding-top:5px;
+}
+	
+/*crumb is for a non-active part of breadcrumb*/
+
+/*.crumb:hover{
+	color:#800000;
+	} */
+	
+	
+
+	
+#user{
+	display:float;
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:20px;
+	}
+
+#user li{
+	float:left;
+	position:relative;
+	left:40%;
+	margin:5px;
+	}
+/*user li positions the navigation system for user personas 1-5*/
+
+#user li:hover{
+	color:green;
+	}
+		
+.toggle{
+	text-transform:uppercase;
+	font-size:10px;
+	color:black;
+	}
+
+	
+li{
+	list-style-type:none;
+	text-decoration:none;
+	}
+
+	
+.nav{
+	background-color:black;
+	text-align:center;
+	text-transform:uppercase;
+	list-style-type: none;
+	margin:15px;
+	border:10px;
+	font-size:15px;
+	}	
+/*left navigation bar*/
+	
+/*.nav:hover{
+	opacity:0.5;
+	background-color:black;
+	color:white;
+}
+/*left navigation bar hover effect*/
+
+.span3{
+	background-color:black;
+	height:1300px;
+	border-radius: 40px 60px;
+	}
+/*navigation bar div on left; rounded borders*/
+
+.span9{
+	background-color:#F0F0F0;
+	height:1300px;
+}
+/*main context div*/
+
+
+
+
+#header{
+	height:200px;
+	background-color:#990000;
+	}
+/*banner div on top of page(span 12)*/
+
+#top_title{
+	font-size:40px;
+	color:white;
+	position:relative;
+	float:left;
+	top:170px;
+	left:60%;
+	}
+/* Banner label*/
+
+
+
+p{
+	
+	}
+
+
+.thumb{
+	height:315;
+	width:392px;
+	}
+	
+a:link{
+	text-decoration:none;
+	color:#990000;
+	}
+	
+/*unvisited link*/
+
+a:active{
+	text-decoration:none;
+	color:white;
+	}
+	
+a:visited{
+	text-decoration:none;
+	color:#990000;
+	}
+/*unvisited link*/	
+	
+	
+a:hover{
+	text-decoration:none;
+	color:grey;
+	opacity:0.6;
+	}
+/*mouse over link*/	
+
+.footer{
+	color:black;
+	opacity:0.5;
+	text-align:center;
+	}
