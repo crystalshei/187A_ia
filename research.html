@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Research</title>
+    <meta name="description" content="Information Architecture">
+    <meta name="author" content="Lara Cheng, Andrew Oh, Crystal Shei">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/redesign.css">
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+	
+<style type="text/css">
+    p {
+      text-align: left;
+    }
+	
+    body {
+      background-color: #C8C8C8;
+      margin: 10px 100px 10px 100px;
+    }
+
+    .container-fluid {
+      margin: 10px 80px 0px 80px;
+      padding-top: 15px;
+      background-color: white;
+    }
+  
+  /*li class for main nav bar*/
+    .topnav{
+      list-style-type:none;
+      float: left;
+      font-size:20px;
+    }
+    
+    .topnav-right{
+      list-style-type:none;
+      float: right;
+      padding-top:8px;
+      padding-right: 1%;
+      margin-bottom: 0px;
+    }
+	
+	/* a class for top navigation*/
+    .nav{
+      font-size:20px;
+      color:black;
+      padding:10px;
+	  text-transform:uppercase ;
+    }
+	
+	.nav:hover{
+		color:grey;
+	}
+	
+	/*div class for top navigation*/
+	.mainbox{
+		 background-color:#800000;
+		 opacity:0.9;
+		 padding:0px;
+		 margin:0px;
+		 height:auto;
+	}
+	
+	.border{
+	border-bottom:2px solid black;	
+	}
+	
+	
+	/*a for top user nav*/
+	.navb{
+		float:left;
+		color:grey;
+		padding:0px;
+	
+	}
+	
+	/*li for top user nav*/
+	.use{
+		float:left;
+		list-style-type:none;
+		padding:0px;
+		position:relative;
+		right:5px;
+		top:10px;
+		
+
+	}
+	
+    .horizontal{
+      float:left;
+	  padding-top:12px;
+    }
+
+   
+	/*img for logo*/
+	.logo{
+		padding:0px;
+		height:76px;
+		}
+		/*float right */
+	.right{
+		float:right;
+	}
+		/* left top logo*/
+	.left{
+	float:left
+	}
+		
+	/*spacing for user nav bar*/
+	.space{
+		background-color:white;
+		padding-top:50px;
+		padding-bottom:0px;
+		}
+	
+	/*image carousel div*/
+	.carousel{
+		background-color:black;
+	}
+	
+	/*div column for university news*/	
+	.unews{
+		background:white;
+		height:950px;
+		padding:0px;
+	}
+	
+	/*a link for more news*/
+	.unews a{
+		color:black;
+		padding:20px;
+	}
+	
+	/*div column for university events*/
+	.events{	
+		height:950px;
+		padding:0px;
+	}
+	
+
+	
+	.events a{
+		color:black;
+		padding:20px;
+	}
+		
+	.block{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	h2{
+		color:black;
+		padding-top:20px;
+		padding:20px;
+		text-align:left;
+	}
+
+
+	.nudge{
+	padding-top:18px;
+	}
+	
+	
+	#foot{
+		text-align:center;
+		font-size:9px;
+	}
+	
+	form {
+		margin: 0px;
+}
+	
+	.pink{
+		background-color:#F8F8FF;
+		height:200px;
+		
+	}
+	
+	
+	.pink h2{
+		text-align:left;
+		padding:30px;
+		padding-bottom:0px;
+		color:#800000;
+		
+		
+	}
+	
+	.pink h3{
+		padding-top:10px;
+		padding-left:30px;
+		color:#696969;
+	}
+	
+	.pink p{
+		padding-left:30px;
+		padding-top:0px;
+		font-size:15px;
+	}
+		
+	.pink a{
+		color:black;
+	
+	}
+	
+	.pink ul{
+		padding-left:30px;
+	}
+	
+	.pink li{
+		padding-left:5px;
+	}
+	
+	.white{
+		height:200px;
+		background-color:white;
+	}
+	
+	.white img{
+		display:block;
+		margin:auto;
+	}
+  </style>
+  
+  </head>
+	<body>
+	
+	  <div class="container-fluid">
+		<div class="row-fluid">	
+			<!--small upper left logo-->	
+			<div class="span3 ">
+				<a href="redesign_page.html"><img src="re_images/logo.jpg" alt="logo"/></a>
+			</div>
+		
+		<!--top user navigation-->
+			<div class="span9 space">
+				<ul class="info right">
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/ProspectiveStudents.shtml"> Prospective Students </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/CurrentStudents.shtml"> Current Students  </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://ulorientation.com/parents"> Parents </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/FacultyStaff.shtml"> Faculty </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/AlumniDonorsFriends.shtml"> Alumni </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://careerservices.louisiana.edu/"> Jobs </a></li>	
+				</ul>
+			</div>		
+			
+		</div>
+	
+	  
+	  <!--main navigation bar on top-->
+		<div class="row-fluid">	
+			<div class="span12 border mainbox">
+				<ul class="horizontal ">
+						<li class="topnav "> <a class="nav " href="redesign_page.html">Main </a></li>
+						<li class="topnav "> <a class="nav" href="about.html">About Us </a></li>
+						<li class="topnav "> <a class="nav" href="academics.html"> Academics </a></li>
+						<li class="topnav "> <a class="nav" href="research.html"> Research </a></li>
+						<li class="topnav "> <a class="nav" href="athletics.html"> Athletics </a></li>
+						<li class="topnav "> <a class="nav" href="contact.html"> Contact Us </a></li>	
+						
+				</ul>
+				<ul class="topnav-right">
+						<li>
+							<form>
+								<input type="text" class="search-query" placeholder="Search">
+							</form>
+						</li>
+				</ul>
+			</div>
+		</div>
+	 
+	    	<!--main content box-->
+		<div class="row-fluid">
+			<div class="span12 white">
+				<img src="re_images/r_head.jpg" alt="research"/>
+			</div>
+		</div>
+			
+			
+		<div class="row-fluid">
+			<div class="span12 pink">
+			<h2>About our program:</h2>
+				<p>UL Lafayette boasts creative faculty and effective research centers focused on specific challenges to society. The research does this through the following strategies: engaging in interdisciplinary research that includes students; developing solutions to real-world problems; and nurturing, preserving and expressing the region's Cajun and Creole cultures. We welcome you to explore the pages and linkages of our Research Office web site to appreciate the unique research climate and regional culture that explains our excitement in developing the new research university (adapted from Vice President of Research Robert R. Twilley's statement)</p>
+			<p>To learn more, visit UL of Lafayette's research page <a href="http://research.ucs.louisiana.edu/">here</a></p>
+			</div>
+		</div>
+		 
+		
+		<div class="row-fluid">
+			<div class="footer span12">
+			<p id="foot">Local date and time:Saturday, 25-Feb-2012 19:30:14 CST .<br />
+
+			Copyright 2003 by the University of Louisiana at Lafayette<br />
+			104 University Circle, Lafayette LA 70504<br />
+			Phone: 337/482-1000 | E-Mail: webmaster@louisiana.edu</p>
+			</div>
+		</div>
+	      
+	  </div>
+
+       </body>
+</html>

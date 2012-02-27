@@ -23,9 +23,9 @@ body{
 	} 
 		
 .crumb{
-	font-size:10px;
+	/* font-size:10px; maybe not the best idea? */
 	color:#800000;
-	opacity:0.7;
+	opacity:0.4;
 	}
 	
 #mainhome {
@@ -43,10 +43,13 @@ body{
 	} */
 	
 	
-
+.inactive_toggle{
+	font-size:10px;
+	color:gray;
+	}
 	
 #user{
-	display:float;
+	position: relative;
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -58,20 +61,21 @@ body{
 	position:relative;
 	left:40%;
 	margin:5px;
+	
 	}
 /*user li positions the navigation system for user personas 1-5*/
 
-#user li:hover{
+/*#user li:hover{
 	color:green;
-	}
+	}*/
 		
 .toggle{
 	text-transform:uppercase;
 	font-size:10px;
 	color:black;
 	}
-
 	
+
 li{
 	list-style-type:none;
 	text-decoration:none;
@@ -79,14 +83,18 @@ li{
 
 	
 .nav{
-	background-color:black;
 	text-align:center;
 	text-transform:uppercase;
 	list-style-type: none;
 	margin:15px;
 	border:10px;
 	font-size:15px;
-	}	
+	}
+
+.navigation {
+	margin-top: 1em;		
+	}
+	
 /*left navigation bar*/
 	
 /*.nav:hover{
@@ -96,21 +104,27 @@ li{
 }
 /*left navigation bar hover effect*/
 
-.span3{
-	background-color:black;
-	height:1300px;
+.span2{
+	background-color:lightgrey;
+	height: auto;
 	border-radius: 40px 60px;
+	padding:0px;
 	}
 /*navigation bar div on left; rounded borders*/
 
-.span9{
+.span10{
 	background-color:#F0F0F0;
-	height:1300px;
+	height:auto;
+	padding: 0px 1.1% 0px 0px;
+
 }
+
+.row-fluid > [class*="span"] {
+  float: left;
+  margin-left: 1%;
+}
+
 /*main context div*/
-
-
-
 
 #header{
 	height:200px;
@@ -122,9 +136,10 @@ li{
 	font-size:40px;
 	color:white;
 	position:relative;
-	float:left;
+	float:right;
 	top:170px;
-	left:60%;
+	text-align:right;
+	margin-right:10px;
 	}
 /* Banner label*/
 
@@ -136,7 +151,7 @@ p{
 
 
 .thumb{
-	height:315;
+	height:315px;
 	width:392px;
 	}
 	
@@ -171,3 +186,11 @@ a:hover{
 	opacity:0.5;
 	text-align:center;
 	}
+	
+#user a:link, #user a:visited{
+	color:black;
+}
+
+.pactive {
+	color:#990000 !important;
+}

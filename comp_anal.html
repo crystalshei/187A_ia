@@ -38,19 +38,20 @@
       font-weight: bold;
     }
     p {
-      text-align: left;
+      text-align: center;
     }
     .well {
       padding: 5px;
     }
     .header {
-      text-align: center;
+      font-size: 18px;
     }
     .well h3 {
       text-align: center;
+      font-size: 30px;
     }
     body {
-      background-color: gray; /* LOL */ 
+      background-color: #800000;
       margin: 10px 100px 10px 100px;
     }
     .table {
@@ -72,6 +73,10 @@
     .footerhr {
       width: 100%;
     }
+    .footer {
+      font-size:10px;
+      color:gray;
+    }
   </style>
   </head>
 	<body>
@@ -79,8 +84,8 @@
 		  <div class="well">
 		    <h3>Competitive Analysis</h3>
 		  </div>
-		  <p>We looked at five different university websites in addition to Louisiana University's and listed below the main elements of each site's main navigation bar.</p>
 		  <p class="bold header">Main Navigation Sections</p>
+		  <p>We looked at five different university websites in addition to Louisiana University's and listed below the main elements of each site's main navigation bar.</p>
 		  <table class="table table-striped table-bordered table-condensed">
 		    <tr class="bold">
 		      <td><a href="http://www.rochester.edu/">U of Rochester</a></td>
@@ -220,8 +225,8 @@
 		    </tr>
 		  </table>
 		  <hr>
-		  <p>The table below shows the frequency of the most commonly occurring categories in the main navigation bar. We chose to neglect listing the categories that only appear once. From this, we can see a few common categories in every site: About, Academics, and Admissions. Also important is Research, but we suppose that depends on the type of school we were looking at.</p>
 		  <p class="bold header">Top Navigation Elements</p>
+		  <p>The table below shows the frequency of the most commonly occurring categories in the main navigation bar. We chose to neglect listing the categories that only appear once. From this, we can see a few common categories in every site: About, Academics, and Admissions. Also important is Research, but we suppose that depends on the type of school we were looking at.</p>
 		  <table class="table table-striped table-bordered table-condensed">
 		    <tr class="bold">
 		      <td>Element</td>
@@ -265,8 +270,8 @@
 		    </tr>
 		  </table>
 		  <hr>
-		  <p>For the next step, we clicked on the "About" section of each of our sites. We then listed the secondary subsections listed under the About section below.</p>
 		  <p class="bold header">"About" Elements</p>
+		  <p>For the next step, we clicked on the "About" section of each of our sites. We then listed the secondary subsections listed under the About section below.</p>
 		  <table class="table table-striped table-bordered table-condensed">
 		    <tr class="bold">
 		      <td><a href="http://www.rochester.edu/">U of Rochester</a></td>
@@ -398,8 +403,8 @@
 		    </tr>
 		  </table>
 		  <hr>
-		  <p>Again, here is the frequency of the most commonly listed elements. We chose to again omit ones that were only listed once. We also consolidated similar groups such as "Points of pride" and "Accolades." It is obvious that universities make it a point to talk about their administration, as well as their achievements and history. </p>
 		  <p class="bold header">Top "About" Elements</p>
+		  <p>Again, here is the frequency of the most commonly listed elements. We chose to again omit ones that were only listed once. We also consolidated similar groups such as "Points of pride" and "Accolades." It is obvious that universities make it a point to talk about their administration, as well as their achievements and history. </p>
 		  <table class="table table-striped table-bordered table-condensed">
 		    <tr class="bold">
 		      <td>Element</td>
@@ -430,15 +435,17 @@
 		      <td>XXX</td>
 		    </tr>
 		  </table>
+		  <p class="bold header">Final Nav Section Selections</p>
 		  <hr>
-		  <p>After some careful consideration, we decided that it would best to divide our main categories into the following subsections: </p>
+		  <p>After some careful consideration, we decided on the dividing the site into the following main navigation sections and subsequent subsecitons. For the "information for" pages such as prospective students. current students, parents, etc. we decided to have a seperate but (slightly) less visible navigation bar on the top right of the page. We did this because we thought that the "information for" pages were simply too important to shove into a dropdown menu and wanted to remain always visible no matter where you went. As for the main sections, we chose those six (although it really is five) because we felt that those sections adequately cover all subsections we'll want to cover. We feel this is a huge improvement over the original Louisiana website because it is much more stream lined and efficient. </p>
 		  <table class="table table-striped table-bordered table-condensed">
 		    <tr class="bold">
-		      <td>About Us</td>
-		      <td>Academics and Research</td>
-		      <td>Information For... (Rename this?)</th>
-		      <th>Athletics</th>
-		      <th>(Search Bar)</th>
+		      <td>MAIN</td>
+		      <td>ABOUT US</td>
+		      <td>ACADEMICS</td>
+		      <td>RESEARCH</td>
+		      <td>ATHLETICS</th>
+		      <td>CONTACT US</td>
 		    </tr>
 		    <tr>
 		      <td>Administration</td>
@@ -446,11 +453,13 @@
 		      <td>Current Students</td>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
+		      <td></td>
 		    </tr>
 		    <tr>
 		      <td>History & Campus</td>
 		      <td>Achievements</td>
 		      <td>Prospective Students</td>
+		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
 		    </tr>
@@ -460,11 +469,13 @@
 		      <td>Parents</td>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
 		    </tr>
 		    <tr>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
 		      <td>Faculty and Staff</td>
+		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
 		    </tr>
@@ -474,6 +485,7 @@
 		      <td>Alumni</td>
 		      <td>&nbsp;</td>
 		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
 		    </tr>
 		    <tr>
 		      <td>&nbsp;</td>
@@ -481,6 +493,7 @@
 		      <td>Job Seekers</td>
 		      <td>&nbsp;</td>
 		      <td></td>
+		      <td>&nbsp;</td>
 		    </tr>
 		  </table>
 	<hr class="footerhr">

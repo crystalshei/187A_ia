@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Academics</title>
+    <meta name="description" content="Information Architecture">
+    <meta name="author" content="Lara Cheng, Andrew Oh, Crystal Shei">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/redesign.css"> 
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+	
+<style type="text/css">
+    p {
+      text-align: left;
+    }
+	
+    body {
+      background-color: #C8C8C8;
+      margin: 10px 100px 10px 100px;
+    }
+
+    .container-fluid {
+      margin: 10px 80px 0px 80px;
+      padding-top: 15px;
+      background-color: white;
+    }
+  
+  /*li class for main nav bar*/
+    .topnav{
+      list-style-type:none;
+      float: left;
+      font-size:20px;
+    }
+    
+    .topnav-right{
+      list-style-type:none;
+      float: right;
+      padding-top:8px;
+      padding-right: 1%;
+      margin-bottom: 0px;
+    }
+	
+	/* a class for top navigation*/
+    .nav{
+      font-size:20px;
+      color:black;
+      padding:10px;
+	  text-transform:uppercase ;
+    }
+	
+	.nav:hover{
+		color:grey;
+	}
+	
+	/*div class for top navigation*/
+	.mainbox{
+		 background-color:#800000;
+		 opacity:0.9;
+		 padding:0px;
+		 margin:0px;
+		 height:auto;
+	}
+	
+	.border{
+	border-bottom:2px solid black;	
+	}
+	
+	
+	/*a for top user nav*/
+	.navb{
+		float:left;
+		color:grey;
+		padding:0px;
+	
+	}
+	
+	/*li for top user nav*/
+	.use{
+		float:left;
+		list-style-type:none;
+		padding:0px;
+		position:relative;
+		right:5px;
+		top:10px;
+		
+
+	}
+	
+    .horizontal{
+      float:left;
+	  padding-top:12px;
+    }
+
+   
+	/*img for logo*/
+	.logo{
+		padding:0px;
+		height:76px;
+		}
+		/*float right */
+	.right{
+		float:right;
+	}
+		/* left top logo*/
+	.left{
+	float:left
+	}
+		
+	/*spacing for user nav bar*/
+	.space{
+		background-color:white;
+		padding-top:50px;
+		padding-bottom:0px;
+		}
+	
+	/*image carousel div*/
+	.carousel{
+		background-color:black;
+	}
+	
+	/*div column for university news*/	
+	.unews{
+		background:white;
+		height:950px;
+		padding:0px;
+	}
+	
+	/*a link for more news*/
+	.unews a{
+		color:black;
+		padding:20px;
+	}
+	
+	/*div column for university events*/
+	.events{	
+		height:950px;
+		padding:0px;
+	}
+	
+
+	
+	.events a{
+		color:black;
+		padding:20px;
+	}
+		
+	.block{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	h2{
+		color:black;
+		padding-top:20px;
+		padding:20px;
+		text-align:left;
+	}
+
+
+	.nudge{
+	padding-top:18px;
+	}
+	
+	
+	#foot{
+		text-align:center;
+		font-size:9px;
+	}
+	
+	form {
+		margin: 0px;
+}
+	.pink{
+		background-color:#F8F8FF;
+		height:1000px;
+		border-bottom: 2px #800000;
+	}
+	
+	
+	.pink h2{
+		text-align:left;
+		padding:30px;
+		padding-bottom:0px;
+		color:#800000;
+		
+		
+	}
+	
+	.pink h3{
+		padding-top:10px;
+		padding-left:30px;
+		color:#696969;
+	}
+	
+	.pink p{
+		padding-left:30px;
+		padding-top:0px;
+	}
+		
+	.pink a{
+		color:black;
+	
+	}
+	
+	.pink h5{
+		padding-top:30px;
+		padding-left:10px;
+	}
+	
+	.pink h3{
+		color:black;
+	}
+	
+	.pink h4{
+		padding-top:30px;
+		padding-left:5px;
+	}
+	
+	.pink ul{
+		padding-left:15px;
+	}
+	
+	
+  </style>
+  
+  </head>
+	<body>
+	
+	  <div class="container-fluid">
+		<div class="row-fluid">	
+			<!--small upper left logo-->	
+			<div class="span3 ">
+				<a href="redesign_page.html"><img src="re_images/logo.jpg" alt="logo"/></a>
+			</div>
+		
+		<!--top user navigation-->
+			<div class="span9 space">
+				<ul class="info right">
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/ProspectiveStudents.shtml"> Prospective Students </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/CurrentStudents.shtml"> Current Students  </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://ulorientation.com/parents"> Parents </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/FacultyStaff.shtml"> Faculty </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/AlumniDonorsFriends.shtml"> Alumni </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://careerservices.louisiana.edu/"> Jobs </a></li>	
+				</ul>
+			</div>		
+			
+		</div>
+	
+	  
+	  <!--main navigation bar on top-->
+		<div class="row-fluid">	
+			<div class="span12 border mainbox">
+				<ul class="horizontal ">
+						<li class="topnav "> <a class="nav " href="redesign_page.html">Main </a></li>
+						<li class="topnav "> <a class="nav" href="about.html">About Us </a></li>
+						<li class="topnav "> <a class="nav" href="academics.html"> Academics </a></li>
+						<li class="topnav "> <a class="nav" href="research.html"> Research </a></li>
+						<li class="topnav "> <a class="nav" href="athletics.html"> Athletics </a></li>
+						<li class="topnav "> <a class="nav" href="contact.html"> Contact Us </a></li>	
+						
+				</ul>
+				<ul class="topnav-right">
+				  <li>
+							<form>
+								<input type="text" class="search-query" placeholder="Search">
+							</form>
+						</li>
+			</div>
+		</div>
+	 
+	    	
+		<div class="row-fluid">
+			<!--main content box-->
+			<div class="span9 pink">
+				<h2>Academics</h2>
+				<h3>Undergraduate Degrees:</h3>
+					<p> University of Louisiana Lafayette offers a range of engaging majors for undergrads in award-winning departments. In addition, the University's Honors Program offers serious and motivated undergraduated students extra access to enhanced resources and opportunities for their continued academic success.</p>
+					<p>Read more about: <a href="http://www.louisiana.edu/Academic/programs.shtml">Departments and Majors</a></p>
+					<p>Read more about: <a href="http://honors.louisiana.edu/">University Honors</a></p>
+					
+				<h3>Graduate:</h3>
+				<p> Graduate students are a vital part of the community of scholars at UL Lafayette, and we strive to create an environment that promotes scientific inquiry and stimulates the creative process.  In collaboration with the academic deans, program coordinators, and the graduate council, we provide leadership and vision for graduate education.  The university's academic colleges offer a substantial variety of both master's and doctoral level degree programs aimed at preparing the next generation of scholars, researchers, practitioners, and leaders in both the private and public sector. </p>
+				
+				
+					<p>Read more about: <a href="http://gradschool.ucs.louisiana.edu/?q=degree/types/all">Degrees</a></p>
+					<p>Read more about: <a href="http://gradschool.ucs.louisiana.edu/?q=content/graduate-programs">Applications</a></p>
+					<p>Read more about: <a href="http://gradschool.ucs.louisiana.edu/?q=content/graduate-faculty">Faculty</a></p>	
+			
+				
+				
+				<h3>Distance Learning:</h3>
+				<p>  The University of Louisiana at Lafayette is a premier provider of electronically delivered courses and degree programs based on the University's core values, its strategic imperatives, and the guiding principles of any time – anywhere, student-focused, and learning-centered education. The result of leveraging technology to its best capabilities will enhance the reputation of the University, increase intellectually stimulating opportunities for students, and improve retention and graduation rates.</p>
+				<p>Read more about: <a href="http://distancelearning.ucs.louisiana.edu/content/types-distance-e-courses-available">What it is</a></p>
+				<p>Read more about: <a href="http://distancelearning.ucs.louisiana.edu/content/online-courses-available-0">Courses and Degrees</a></p>
+				<p>Read more about: <a href="http://distancelearning.ucs.louisiana.edu/content/our-staff">Faculty</a></p>
+				
+				
+			</div>
+			
+			<!--right hand resources box-->
+			<div class="span3 pink">
+				<h4> Quick Links:</h4>
+				
+				<h5>Undergraduates:</h5>
+					<p>
+						<ul>
+							<li><a href="http://studentsuccess.louisiana.edu/?q=node/3">Academic Advising</a></li>
+							<li><a href="https://webmail.zimbra.louisiana.edu/home/ulcalendars@louisiana.edu/UL%20Administrative%20Calendar.html">Calender</a></li>
+							<li><a href="http://admissions.louisiana.edu/registrar/Schedule/">Schedule of Classes</a></li>
+							<li><a href="http://www.louisiana.edu/Academic/programs.shtml">Majors</a></li>
+						</ul>
+					</p>
+				<h5>Graduate Programs:</h5>
+					<p>
+						<ul>
+							<li><a href="http://gradschool.ucs.louisiana.edu/?q=category/pagetype/prospective-students">Prospective Students</a></li>
+						</ul>
+					</p>
+				<h5>Colleges:</h5>
+				<p> 
+					<ul>
+						<li><a href="http://arts.louisiana.edu/">Arts</a></li>
+						<li><a href="http://moody.louisiana.edu/">Business</a></li>
+						<li><a href="http://coe.louisiana.edu/">Education</a></li>
+						<li><a href="http://engineering.louisiana.edu/">Engineering</a></li>
+						<li><a href="http://gs.louisiana.edu/">General Studies</a></li>
+						<li><a href="http://liberalarts.louisiana.edu/">Liberal Arts</a></li>
+						<li><a href="http://www.nursing.louisiana.edu/">Nursing/Health</a></li>
+						<li><a href="http://www.ulscience.com/site.php">Sciences</a></li>
+						<li><a href="http://apfd.louisiana.edu/">UNIV</a></li>					
+					</ul>
+				</p>
+			</div>
+		</div>
+		
+		
+		
+		 
+		
+		<div class="row-fluid">
+			<div class="footer span12">
+			<p id="foot">Local date and time:Saturday, 25-Feb-2012 19:30:14 CST .<br />
+
+			Copyright 2003 by the University of Louisiana at Lafayette<br />
+			104 University Circle, Lafayette LA 70504<br />
+			Phone: 337/482-1000 | E-Mail: webmaster@louisiana.edu</p>
+			</div>
+		</div>
+	      
+	  </div>
+
+       </body>
+</html>

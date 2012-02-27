@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Athletics</title>
+    <meta name="description" content="Information Architecture">
+    <meta name="author" content="Lara Cheng, Andrew Oh, Crystal Shei">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/redesign.css">
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+    </head>
+	
+<style type="text/css">
+    p {
+      text-align: left;
+    }
+	
+    body {
+      background-color: #C8C8C8;
+      margin: 10px 100px 10px 100px;
+    }
+
+    .container-fluid {
+      margin: 10px 80px 0px 80px;
+      padding-top: 15px;
+      background-color: white;
+    }
+  
+  /*li class for main nav bar*/
+    .topnav{
+      list-style-type:none;
+      float: left;
+      font-size:20px;
+    }
+    
+    .topnav-right{
+      list-style-type:none;
+      float: right;
+      padding-top:8px;
+      padding-right: 1%;
+      margin-bottom: 0px;
+    }
+	
+	/* a class for top navigation*/
+    .nav{
+      font-size:20px;
+      color:black;
+      padding:10px;
+	  text-transform:uppercase ;
+    }
+	
+	.nav:hover{
+		color:grey;
+	}
+	
+	/*div class for top navigation*/
+	.mainbox{
+		 background-color:#800000;
+		 opacity:0.9;
+		 padding:0px;
+		 margin:0px;
+		 height:auto;
+	}
+	
+	.border{
+	border-bottom:2px solid black;	
+	}
+	
+	
+	/*a for top user nav*/
+	.navb{
+		float:left;
+		color:grey;
+		padding:0px;
+	
+	}
+	
+	/*li for top user nav*/
+	.use{
+		float:left;
+		list-style-type:none;
+		padding:0px;
+		position:relative;
+		right:5px;
+		top:10px;
+		
+
+	}
+	
+    .horizontal{
+      float:left;
+	  padding-top:12px;
+    }
+
+   
+	/*img for logo*/
+	.logo{
+		padding:0px;
+		height:76px;
+		}
+		/*float right */
+	.right{
+		float:right;
+	}
+		/* left top logo*/
+	.left{
+	float:left
+	}
+		
+	/*spacing for user nav bar*/
+	.space{
+		background-color:white;
+		padding-top:50px;
+		padding-bottom:0px;
+		}
+	
+	/*image carousel div*/
+	.carousel{
+		background-color:black;
+	}
+	
+	/*div column for university news*/	
+	.unews{
+		background:white;
+		height:950px;
+		padding:0px;
+	}
+	
+	/*a link for more news*/
+	.unews a{
+		color:black;
+		padding:20px;
+	}
+	
+	/*div column for university events*/
+	.events{	
+		height:950px;
+		padding:0px;
+	}
+	
+
+	
+	.events a{
+		color:black;
+		padding:20px;
+	}
+		
+	.block{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	h2{
+		color:black;
+		padding-top:20px;
+		padding:20px;
+		text-align:left;
+	}
+
+
+	.nudge{
+	padding-top:18px;
+	}
+	
+	
+	#foot{
+		text-align:center;
+		font-size:9px;
+	}
+	
+	form {
+		margin: 0px;
+}
+	
+	.pink{
+		background-color:#F8F8FF;
+		height:150px;
+		border-bottom: 2px #800000;
+	}
+	
+	
+	.pink h1{
+		text-align:left;
+		padding:30px;
+		padding-bottom:0px;
+		color:#800000;			
+	}
+	
+	.pink p{
+		padding-left:30px;
+		padding-top:0px;
+		font-size:18px;
+	}
+	
+	.athletics{
+		background-color:white;
+		height:400px;
+		border-bottom: 2px #800000;
+	}
+	
+	
+	
+	.athletics h3{
+		padding-top:10px;
+		padding-left:30px;
+		color:#696969;
+	}
+	
+	.athletics p{
+		padding-left:30px;
+		padding-top:0px;
+	}
+		
+	.athletics a{
+		color:black;
+	
+	}
+	
+	.athletics ul{
+		padding-left:30px;
+	}
+	
+	.athletics li{
+		padding-left:5px;
+	}
+	
+	
+	
+  </style>
+  
+  </head>
+	<body>
+	
+	  <div class="container-fluid">
+		<div class="row-fluid">	
+			<!--small upper left logo-->	
+			<div class="span3 ">
+				<a href="redesign_page.html"><img src="re_images/logo.jpg" alt="logo"/></a>
+			</div>
+		
+		<!--top user navigation-->
+			<div class="span9 space">
+				<ul class="info right">
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/ProspectiveStudents.shtml"> Prospective Students </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/CurrentStudents.shtml"> Current Students  </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://ulorientation.com/parents"> Parents </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/FacultyStaff.shtml"> Faculty </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://www.louisiana.edu/AboutUs/LinksFor/AlumniDonorsFriends.shtml"> Alumni </a><img src="images/divider.jpg" alt="divider"/></li>
+						<li class="use "> <a class="navb" href="http://careerservices.louisiana.edu/"> Jobs </a></li>	
+				</ul>
+			</div>		
+			
+		</div>
+	
+	  
+	  <!--main navigation bar on top-->
+		<div class="row-fluid">	
+			<div class="span12 border mainbox">
+				<ul class="horizontal ">
+						<li class="topnav "> <a class="nav " href="redesign_page.html">Main </a></li>
+						<li class="topnav "> <a class="nav" href="about.html">About Us </a></li>
+						<li class="topnav "> <a class="nav" href="academics.html"> Academics </a></li>
+						<li class="topnav "> <a class="nav" href="research.html"> Research </a></li>
+						<li class="topnav "> <a class="nav" href="athletics.html"> Athletics </a></li>
+						<li class="topnav "> <a class="nav" href="contact.html"> Contact Us </a></li>	
+						
+				</ul>
+				<ul class="topnav-right">
+						<li>
+							<form>
+								<input type="text" class="search-query" placeholder="Search">
+							</form>
+						</li>
+				</ul>
+			</div>
+		</div>
+	 
+	    	<!--main content box-->
+		<div class="row-fluid">
+			<div class="span12 pink">
+			<h1>Athletics</h1>
+			<p>University of Lousiana Lafayette has an active and engaging athletics system grounded in a tradition of excellence. Through both our principal athletics program (Ragin' Cajuns) or through a recreational sport, our athletics programs offer something for everyone. Please visit the individual pages of our different programs for more information.</p>
+			<p>Or, to connect with current and former UL Lafayette athletes, visit our <a href="http://athleticnetwork.net/site.php">Athletics Network</a>.</p>
+			</div>
+		</div>
+		
+		<div class="row-fluid">
+			<div class="span4 athletics">
+				<a href="http://www.ragincajuns.com/
+				" alt="ragin cajuns"><img src="re_images/rage.jpg" alt="ragincajuns"/></a>
+				
+				<h3>Men's Sports</h3>
+				<ul>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=baseball&tab=baseball2">Baseball</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=mbball&tab=basketball">Basketball</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=cross&tab=crosscountry2">Cross Country</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?tab=football2&path=football">Football</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=golf&tab=golf2">Golf</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=track&tab=trackandfield2">Track and Field</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=mten&tab=tennis">Tennis</a></li>
+				</ul>
+				
+				<h3>Women's Sports</h3>
+				<ul>
+					<li><a href="http://www.ragincajuns.com/index.aspx?tab=basketball2&path=wbball">Basketball</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=cross&tab=crosscountry2">Cross Country</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=wsoc&tab=soccer">Soccer</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=softball&tab=softball2">Softball</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=wten&tab=tennis2">Tennis</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=track&tab=trackandfield2">Track and Field</a></li>
+					<li><a href="http://www.ragincajuns.com/index.aspx?path=wvball&tab=volleyball">Volleyball</a></li>
+				</ul>
+			</div>
+			
+			<div class="span4 athletics">
+				<a href="http://intramurals.louisiana.edu/" alt="rec"><img src="re_images/rec.jpg" alt="recreation"/></a>
+				<ul>
+					<li><a href="http://intramurals.louisiana.edu/clubsports.shtml">Club Sports</a></li>
+					<li><a href="http://intramurals.louisiana.edu/intramural-sports-schedule.shtml">Intramurals</a></li>
+				</ul>
+				
+			</div>
+			
+			<div class="span4 athletics">
+				<img src="re_images/event.jpg"/>
+				<ul>
+					<li><a href="http://www.ragincajuns.com/calendar.aspx?tab=sportscalendar" alt="events">Sports Events</a></li>
+					<li><a href="http://intramurals.louisiana.edu/facility-schedule.shtml">Facility Schedule</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		
+		
+		 
+		
+		<div class="row-fluid">
+			<div class="footer span12">
+			<p id="foot">Local date and time:Saturday, 25-Feb-2012 19:30:14 CST .<br />
+
+			Copyright 2003 by the University of Louisiana at Lafayette<br />
+			104 University Circle, Lafayette LA 70504<br />
+			Phone: 337/482-1000 | E-Mail: webmaster@louisiana.edu</p>
+			</div>
+		</div>
+	      
+	  </div>
+
+       </body>
+</html>
