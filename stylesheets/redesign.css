@@ -1,41 +1,101 @@
-    .container-fluid {
-      width:70% !important;
-      margin: 10px 80px 0px 15% !important;
+    body {
+      margin: 10px 100px 10px 100px !important;
     }
-    
+
+    .container-fluid {
+        padding: 0px 20px 0px 20px !important;
+    }    
     .nav {
       font-size:16px !important;
-      color:lightgrey !important;
-      padding:10px 15px 10px 0px !important;
+      color:white !important;
+      padding:10px 8px 10px 8px !important;
       text-transform:uppercase ;
     }
     
     .topnav a:hover {
-  color: white !important;
+  color: silver !important;
   text-decoration: none !important;
 }
 
+
     .horizontal{
-        padding: 12px 0px 0px 0px !important;
-        margin-left: 1em;
+        padding: 8px 0px 0px 0px !important;
+        margin-left: 0px !important;
     }
     
     	.border{
 	border-bottom:1px solid black !important;	
 	}
     
-    .unews {
-    	padding-top:0px !important;
-        margin-top: 0px !important;
-    }
-    
     .topnav-right{
       padding-top:6px !important;
 
     }
     
-    .slider_info {
-        background-color: #333;
-        height: 100%;
+    .mainbox{
+                color: maroon;
+		opacity: 1.0 !important;
+	}
+    
+    .ghost {
+        opacity: 0.5;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .ghost:hover {
+        opacity: 1.0;
+    }
+    
+    .red-spacer {
+        background-color: maroon;
         width: 100%;
+        height: 2.5em;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    .no-bottom-margin {
+        margin-top: 4px;
+        margin-bottom: 2px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .slider_info ul {
+        list-style: none !important;
+        margin:0px;
+        padding:0px;
+    }
+    
+    .slider_info li {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .footer ul {
+        list-style: none;
+        position: relative;
+        margin: 0 auto 0 46% !important;
+    }
+    
+    .footer img {
+        float: left;
+        margin-right: 6px;
+        margin-bottom: 5px;
+    }
+    
+    .footer li {
+        margin: 0 5px 0 auto !important;
+    }
+
+    .horizontal li {
+        border-right: 1px solid gray;
+    }
+    
+    .active_nav {
+        font-weight: bolder;
+    }
+    
+    .search-query {
+        width: 150px;
     }
